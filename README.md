@@ -1,5 +1,6 @@
 # event_organizer
-template tabs http://exprostudio.com/html/event_organizer/index3.html#tg-speakers
+Пример вкладок - http://exprostudio.com/html/event_organizer/index3.html#tg-schedule
+Скрипт с вкладками (исходники) - https://github.com/jellekralt/Responsive-Tabs
 
 event_structure.jpg - основная структура вкладок исходя из данных файла "_variables.pug" <br>
 _variables.pug - файл с данными для вкладок <br>
