@@ -1,0 +1,15 @@
+// Вкладки
+mixin event_tabs (event_tabs)
+	li
+		a(href="#" + event_tabs.tab_index)=event_tabs.hall_name
+
+mixin event_tabs_content (event_tabs_content)
+		for key in event_tabs_content.event_list
+			li(id=event_tabs_content.tab_index)=key.description_event
+
+
+
+#responsiveTabs
+	ul
+		for event_tabs in conference
+			+event_tabs(event_tabs)
