@@ -1,5 +1,5 @@
 # event_organizer
-template event organizer
+template tabs http://exprostudio.com/html/event_organizer/index3.html#tg-speakers
 
 _variables.pug - файл с данными для вкладок
 tabs.pug - файл с шаблоном вывода (mixin) 
