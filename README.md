@@ -4,7 +4,7 @@
 <br>
 <br>
 <strong>Структура файлов:</strong><br>
-event_structure.jpg - основная структура вкладок исходя из данных файла "_variables.pug" <br>
+event_structure.jpg - пример вкладок с указанием блоков с переменными исходя из данных файла "_variables.pug" <br>
 _variables.pug - файл с данными для вкладок <br>
 tabs.pug - файл с шаблоном вывода (mixin) <br> 
 responsiveTabs.js - скрипт для работы вкладок <br>
