@@ -1,10 +1,21 @@
+include _variables
+
+doctype
+html
+	head
+        link(rel="stylesheet" href="_rasponsive-tabs.css")
 
 
-script(src="https://code.jquery.com/jquery-3.2.1.min.js")
-script(src="_responsiveTabs.js")
 
-// Инициализация вкладок с событиями
-$('#responsiveTabs').responsiveTabs({
-    startCollapsed: 'accordion'
-});
+    body
+        include tabs
+    
+    
+        script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+        script(src="_responsiveTabs.js")
+
+        // Инициализация вкладок с событиями
+        $('#responsiveTabs').responsiveTabs({
+            startCollapsed: 'accordion'
+        });
 
